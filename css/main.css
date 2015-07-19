@@ -1,0 +1,371 @@
+/**********GENERAL**********/
+
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h3 {
+    margin: 0 0 1em 0;
+  }
+
+
+
+
+/**********HEADING**********/
+
+  h1 {
+    font: normal 2em/ 0.8em 'Inknut Antiqua', serif;
+  }
+  
+  h2 {
+    margin: -5px 0 0;
+    font-size: 1em;
+    font-weight: normal;
+  }
+  
+  header {
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  #logo {
+    text-align: center;
+    margin: 0;
+  }
+
+
+
+
+/**********NAVIGATION**********/
+
+  nav a {
+    font-weight: normal;
+    padding: 15px 10px;
+  }
+
+  nav {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+    text-shadow: 2px 2px 2px #7f7f7f;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    border-right: 2px solid #7f7f7f;
+  }
+
+  .last-nav {
+    border: none;
+  }
+
+
+
+
+/**********FOOTER**********/
+
+  footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    padding: 50px 0;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+
+
+
+/**********BODY**********/
+
+  body {
+    font-family: 'Sarala', sans-serif;
+    background-image: url('../img/desk-laptop-working-technology.jpg');
+    background-size: 200%;
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+
+
+
+
+/**********PAGE: LANDING PAGE**********/
+
+  .landing-page {
+    margin-top: 10%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .landing-page p {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 200%;
+  }
+
+  .landing-page h1,
+  .landing-page p {
+    text-shadow: 5px 5px 10px #222; 
+}
+
+
+
+/**********PAGE: PORTFOLIO**********/
+
+  #gallery {
+    clear: both;
+    margin: 0;
+    padding-top: 10px;
+    list-style: none;
+  }
+  
+  #gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+  }
+  
+  #gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: .75em;
+    text-align: center;
+  }
+
+
+
+/**********PAGE: PACKAGES**********/
+
+  #package-paragraph {
+    text-align: center;
+    float: right;
+    clear: both;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .primary-content h2 {
+    font-size: 2em;
+  }
+  
+  .primary-content {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .secondary-content p, h3 {
+    text-align:center;
+  }
+  
+  .secondary-content {
+    padding: 5px;
+  }
+  
+  .last-content {
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+/**********PAGE: ABOUT**********/
+
+  .profile-photo {
+    display: block;
+    border-radius: 100%;
+    max-width: 150px;
+    clear: both;
+    padding: 20px 0;
+    margin-left: 30%;
+  }
+  
+  .profile-paragraph {
+    text-align: center;
+    padding: 5px;
+  }
+
+
+
+/**********PAGE: CONTACT**********/
+
+  #secondary {
+    clear: both;
+    margin-top: 5%;
+    padding: 0 5px;
+  }
+
+  #contact {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .primary h2 {
+    font-size: 1.5em;
+  }
+
+  .primary {
+    clear: both;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 5px 0 5px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
+  .contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+  }
+  
+  .contact-info li.phone a {
+    background-image: url('../img/phone.png');
+  }
+  
+  .contact-info li.mail a {
+    background-image: url('../img/mail.png');
+  }
+  
+  .contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+  }
+
+
+
+
+/**********COLORS**********/
+  
+  a {
+    color: #825cff;
+  }
+  
+  h1, h2 {
+    color: #6000d9;
+  }
+
+/**********COLORS: NAVIGATION**********/
+
+  .transparent-background{
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+  
+  nav a, nav a:visited {
+    color: #825cff;
+  }
+  
+  nav a.selected {
+    color: #6000d9;
+  }
+  
+  nav a:hover {
+    color: #6000d9;
+  }
+
+/**********COLORS: FOOTER**********/
+  
+  footer {
+    color: #3a3a3a;
+  }
+
+/**********COLORS: BODY**********/
+  
+  body {
+    color: #3a3a3a;
+  }
+  
+/**********COLORS: LANDING PAGE**********/
+
+  .landing-page {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+
+/**********COLORS: PACKAGES**********/
+
+#package-paragraph {
+    color: #3a3a3a;
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+
+.primary-content {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+.secondary-content,
+.last-content {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+    
+/**********COLORS: PORTFOLIO**********/
+
+  #gallery li {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+  
+  #gallery li p {
+      color: #3a3a3a;
+  }
+
+/**********COLORS: ABOUT**********/
+
+.profile-paragraph {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+
+/**********COLORS: CONTACT**********/
+
+#secondary {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }
+
+.primary {
+    background: #7f7f7f;
+    background: rgba(255,255,255,0.5);
+  }

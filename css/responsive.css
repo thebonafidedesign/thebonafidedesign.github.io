@@ -1,0 +1,140 @@
+@media screen and (min-width: 480px) {
+
+  /***BODY***/
+  
+    body {
+      background-size: 150%;
+    }
+  
+  
+  
+  /***PAGE: PORTFOLIO***/
+  
+    #gallery li {
+      width: 28.3333%;
+    }
+    
+    #gallery li:nth-child(4n) {
+      clear: left;
+    }
+  
+  
+  
+  /***PAGE: PACKAGES***/
+  
+    .primary-content {
+    width: 50%;
+    float: left;
+  }
+  
+    .secondary-content {
+      width: 40%;
+      float: right;
+      margin-top: 20px;
+    }
+  
+   .last-content {
+    width: 50%;
+    float: left;
+  }
+  
+  
+  
+  /***PAGE: ABOUT***/
+  
+    .profile-photo {
+      float: left;
+      margin: 65px 5% 5% 5%;
+      padding: 0;
+    }
+  
+    .about-section {
+      display: inline-block;
+      clear: both;
+      margin-top: 5%;
+    }
+
+  
+  
+  /***PAGE: CONTACT -- TWO COLUMN LAYOUT***/
+
+    .primary {
+      clear: none;
+      width: 50%;
+      float: left;
+      padding-bottom: 20px;
+    }
+    
+    #secondary {
+      clear: none;
+      width: 40%;
+      float: right;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 880px) {
+  
+  /***NAVIGATION***/
+  
+    nav {
+      float: right;
+      font-size: 1.125em;
+      margin-right: 5%;
+      text-align: right;
+      width: 45%;
+    }
+  
+  
+  
+  /***HEADING***/
+  
+    #logo {
+      float: left;
+      margin-left: 5%;
+      text-align: left;
+      width: 45%;
+    }
+    
+    h1 {
+      font-size: 2.5em;
+    }
+    
+    h2 {
+      font-size: 0.825em;
+      margin-bottom: 20px;
+    }
+    
+    header {
+      margin-bottom: 60px;
+    }
+  
+  
+  
+  /**BODY**/
+    body {
+      background-size: 100%;
+    }
+  
+  
+  
+  /***PAGE: LANDING PAGE***/
+  
+    .landing-page h2 {
+      font-size: 1em;
+    }
+  
+  
+  
+  /***PAGE: PORTFOLIO***/
+  
+    #gallery li:nth-child(4n) {
+      clear: left;
+    }
+  
+}
