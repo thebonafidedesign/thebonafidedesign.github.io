@@ -12,6 +12,10 @@
     margin: 0 0 1em 0;
   }
 
+  p{
+    line-height: 1.5;
+  }
+
 
 
 /**********BODY**********/
@@ -106,12 +110,12 @@
 
   .landing-page h1 {
     padding: 25px 0;
-    font-size: 24px;
     border-bottom: solid 2px #6000d9;
   }
 
   .landing-page h1,
   .landing-page p {
+    font-size: 24px;
     text-shadow: 2px 2px 2px #7f7f7f; 
 }
 
