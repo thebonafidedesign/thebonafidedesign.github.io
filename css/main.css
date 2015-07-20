@@ -189,7 +189,7 @@
     max-width: 200px;
     clear: both;
     padding: 20px 0;
-    margin-left: 30%;
+    margin-left: 25%;
   }
   
   .profile-paragraph {
@@ -198,8 +198,8 @@
   }
 
   .profile-paragraph-border {
+    padding-bottom: 5px;
     border-bottom: dotted 2px #3a3a3a;
-    border-width: 10px;
   }
 
 
