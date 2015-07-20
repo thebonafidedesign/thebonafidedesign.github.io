@@ -195,7 +195,11 @@
   .profile-paragraph {
     text-align: center;
     padding: 5px;
+  }
+
+  .profile-paragraph-border {
     border-bottom: dotted 2px #3a3a3a;
+    border-width: 50%;
   }
 
 
