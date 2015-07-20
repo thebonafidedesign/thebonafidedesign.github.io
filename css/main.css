@@ -181,7 +181,7 @@
 
   .profile-photo {
     display: block;
-    border-radius: 75%;
+    border-radius: 25%;
     max-width: 200px;
     clear: both;
     padding: 20px 0;
