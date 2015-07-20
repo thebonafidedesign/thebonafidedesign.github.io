@@ -113,7 +113,7 @@
     font-family: 'Inknut Antiqua', serif;
     font-size: 24px;
     text-shadow: 2px 2px 2px #7f7f7f; 
-    line-height: normal;
+    line-height: 1.0;
 }
 
 
@@ -186,7 +186,7 @@
     max-width: 200px;
     clear: both;
     padding: 20px 0;
-    margin-left: 23%;
+    margin-left: 20%;
   }
   
   .profile-paragraph {
