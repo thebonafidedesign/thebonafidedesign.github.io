@@ -14,6 +14,37 @@
 
 
 
+/**********BODY**********/
+
+  body {
+    font-family: 'Sarala', sans-serif;
+    background-color: #3a3a3a;
+  }
+  
+  #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+
+
+
+/**********FOOTER**********/
+
+  footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    padding: 50px 0;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+
 
 /**********HEADING**********/
 
@@ -72,44 +103,6 @@
   .last-nav {
     border: none;
   }
-
-
-
-
-/**********FOOTER**********/
-
-  footer {
-    font-size: .75em;
-    text-align: center;
-    clear: both;
-    padding: 50px 0;
-  }
-  
-  .social-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-  }
-
-
-
-
-/**********BODY**********/
-
-  body {
-    font-family: 'Sarala', sans-serif;
-    background-image: url('../img/desk-laptop-working-technology.jpg');
-    background-size: 150% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-  
-  #wrapper {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 5%;
-  }
-
 
 
 
@@ -323,13 +316,13 @@
 
 /**********COLORS: PACKAGES**********/
 
-#package-paragraph {
+  #package-paragraph {
     color: #3a3a3a;
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
   }
 
-.primary-content {
+  .primary-content {
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
     clear: both;
@@ -338,8 +331,8 @@
     margin-top: 20px;
   }
 
-.secondary-content,
-.last-content {
+  .secondary-content,
+  .last-content {
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
   }
@@ -357,19 +350,19 @@
 
 /**********COLORS: ABOUT**********/
 
-.profile-paragraph {
+  .profile-paragraph {
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
   }
 
 /**********COLORS: CONTACT**********/
 
-#secondary {
+  #secondary {
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
   }
 
-.primary {
+  .primary {
     background: #7f7f7f;
     background: rgba(255,255,255,0.5);
   }
