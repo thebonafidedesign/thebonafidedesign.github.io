@@ -102,11 +102,6 @@
     background-size: 100%;
     background-repeat: no-repeat;
   }
-  
-  .landing-page p {
-    font-family: 'Inknut Antiqua', serif;
-    font-size: 200%;
-  }
 
   .landing-page h1 {
     padding: 25px 0;
@@ -115,8 +110,10 @@
 
   .landing-page h1,
   .landing-page p {
+    font-family: 'Inknut Antiqua', serif;
     font-size: 24px;
     text-shadow: 2px 2px 2px #7f7f7f; 
+    line-height: normal;
 }
 
 
