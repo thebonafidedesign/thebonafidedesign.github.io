@@ -28,23 +28,6 @@
 
 
 
-/**********FOOTER**********/
-
-  footer {
-    font-size: .75em;
-    text-align: center;
-    clear: both;
-    padding: 50px 0;
-  }
-  
-  .social-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-  }
-
-
-
 /**********HEADING**********/
 
   h1 {
@@ -113,7 +96,6 @@
     width: 100%;
     background-image: url('../img/desk-laptop-working-technology.jpg');
     background-size: 100%;
-    float: left;
   }
   
   .landing-page p {
@@ -122,13 +104,14 @@
   }
 
   .landing-page h1 {
-    padding-top: 25px;
+    padding: 25px 0;
     font-size: 175%;
+    border-bottom: solid 2px #6000d9;
   }
 
   .landing-page h1,
   .landing-page p {
-    text-shadow: 5px 5px 10px #222; 
+    text-shadow: 2px 2px 2px #7f7f7f; 
 }
 
 
@@ -265,6 +248,22 @@
     background-image: url('../img/twitter.png');
   }
 
+
+
+/**********FOOTER**********/
+
+  footer {
+    font-size: .75em;
+    text-align: center;
+    clear: both;
+    padding: 50px 0;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
 
 
 
