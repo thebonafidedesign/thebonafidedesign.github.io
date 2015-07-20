@@ -18,7 +18,6 @@
 
   body {
     font-family: 'Sarala', sans-serif;
-    background-color: #3a3a3a;
   }
   
   #wrapper {
@@ -112,6 +111,8 @@
     margin: 25% 0;
     text-align: center;
     width: 100%;
+    background-image: url('../img/desk-laptop-working-technology.jpg');
+    background-size: 100%;
   }
   
   .landing-page p {
@@ -298,20 +299,14 @@
 /**********COLORS: FOOTER**********/
   
   footer {
-    color: #3a3a3a;
+    color: #fff;
   }
 
 /**********COLORS: BODY**********/
   
   body {
     color: #3a3a3a;
-  }
-  
-/**********COLORS: LANDING PAGE**********/
-
-  .landing-page {
-    background: #7f7f7f;
-    background: rgba(255,255,255,0.5);
+    background-color: #3a3a3a;
   }
 
 /**********COLORS: PACKAGES**********/
