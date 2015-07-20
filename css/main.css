@@ -19,6 +19,7 @@
 
   h1 {
     font: normal 2em/ 0.8em 'Inknut Antiqua', serif;
+
   }
   
   h2 {
@@ -98,8 +99,7 @@
   body {
     font-family: 'Sarala', sans-serif;
     background-image: url('../img/desk-laptop-working-technology.jpg');
-    background-size: 200%;
-    background-position: cover;
+    background-size: 150% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -116,15 +116,19 @@
 /**********PAGE: LANDING PAGE**********/
 
   .landing-page {
-    margin-top: 10%;
-    padding: 5%;
+    margin: 20px 0;
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
   
   .landing-page p {
     font-family: 'Inknut Antiqua', serif;
     font-size: 200%;
+  }
+
+  .landing-page h1 {
+    padding-top: 25px;
+    font-size: 175%;
   }
 
   .landing-page h1,
