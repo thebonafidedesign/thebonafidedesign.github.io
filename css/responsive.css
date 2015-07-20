@@ -52,12 +52,12 @@
     float: left;
   }
   
-    .secondary-content {
-      width: 40%;
-      float: right;
-      margin-top: 20px;
-    }
-  
+  .secondary-content {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+  }
+
    .last-content {
     width: 50%;
     float: left;
@@ -69,7 +69,7 @@
   
     .profile-photo {
       float: left;
-      margin: 65px 5% 5% 5%;
+      margin: 65px 5% 0;
       padding: 0;
     }
   
