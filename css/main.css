@@ -166,7 +166,7 @@
   }
   
   .secondary-content {
-    padding: 5px;
+    padding: 10px;
   }
   
   .last-content {
@@ -191,7 +191,7 @@
   .profile-paragraph {
     text-align: center;
     line-height: 2.0;
-    padding: 5px 0;
+    padding: 5px 10px;
   }
 
 
@@ -201,7 +201,7 @@
   #secondary {
     clear: both;
     margin-top: 5%;
-    padding: 0 5px;
+    padding: 5px 10px;
   }
 
   #contact {
