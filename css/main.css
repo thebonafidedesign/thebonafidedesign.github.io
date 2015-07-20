@@ -113,6 +113,7 @@
     width: 100%;
     background-image: url('../img/desk-laptop-working-technology.jpg');
     background-size: 100%;
+    float: left;
   }
   
   .landing-page p {
