@@ -138,45 +138,6 @@
 
 
 
-/**********PAGE: PACKAGES**********/
-
-  #package-paragraph {
-    text-align: center;
-    float: right;
-    clear: both;
-    margin: 20px 0;
-    padding: 10px;
-    line-height: 2.0;
-  }
-
-  .primary-content h2 {
-    font-size: 2em;
-  }
-  
-  .primary-content {
-    clear: both;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    line-height: 2.0;
-  }
-  
-  .secondary-content p, h3 {
-    text-align:center;
-  }
-  
-  .secondary-content {
-    padding: 10px;
-  }
-  
-  .last-content {
-    text-align: center;
-    padding: 10px;
-    line-height: 2.0;
-  }
-
-
-
 /**********PAGE: ABOUT**********/
 
   .profile-photo {
@@ -312,29 +273,6 @@
     background-color: #3a3a3a;
   }
 
-/**********COLORS: PACKAGES**********/
-
-  #package-paragraph {
-    color: #3a3a3a;
-    background: #7f7f7f;
-    background: rgba(255,255,255,0.5);
-  }
-
-  .primary-content {
-    background: #7f7f7f;
-    background: rgba(255,255,255,0.5);
-    clear: both;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
-
-  .secondary-content,
-  .last-content {
-    background: #7f7f7f;
-    background: rgba(255,255,255,0.5);
-  }
-    
 /**********COLORS: PORTFOLIO**********/
 
   #gallery li {
